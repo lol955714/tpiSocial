@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css" />
     <link rel="stylesheet" href="libs/css/main.css" />
+    <meta name="keywords" content="izad, iglesia, zacamil, comedor, comida, menú, comunidad">
+    <meta name="description" content="Sitio dedicado a la administración de inventario y mostrar el menú del día">
+    <meta name="ROBOTS" content="ALL">
   </head>
   <body>
   <?php  if ($session->isUserLoggedIn(true)): ?>
