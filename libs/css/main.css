@@ -304,3 +304,9 @@ input[type=file]{
   width: 125px;
   height: 125px;
 }
+#derecha{
+  float:right;
+}
+#izquierda{
+  float:left;
+}
