@@ -9,7 +9,7 @@
               <tr>
                 <th id="columnasPrin"> Imagen</th>
                 <th id="columnasPrin"> Descripción </th>
-                <th id="columnasPrin" class="text-center" style="width: 10%;"> Precio de venta </th>
+                <th id="columnasPrin"> Precio de venta </th>
                  </tr>
             </thead>
             <tbody>
@@ -25,7 +25,7 @@
                 <?php endif; ?>
                 </td>
                 <td id="columnasPrin"> <?php echo remove_junk($product['name']); ?></td>
-                <td id="columnasPrin" class="text-center"> <?php echo remove_junk($product['sale_price']); ?></td>
+                <td id="columnasPrin"> <?php echo remove_junk($product['sale_price']); ?></td>
               </tr>
                 <?php endif; ?>
              <?php endforeach; ?>
