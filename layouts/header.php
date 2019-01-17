@@ -1,4 +1,4 @@
-<?php $user = current_user(); ?>
+﻿<?php $user = current_user(); ?>
 <!DOCTYPE html>
   <html lang="en">
     <head>
@@ -26,9 +26,6 @@
         <img src="./uploads/users/logoinv.png"/>
       </div>
       <div class="header-content">
-      <div class="header-date pull-left">
-        <strong><?php echo date("M/D/Y  G:i ");?></strong>
-      </div>
       <div class="pull-right clearfix">
         <ul class="info-menu list-inline list-unstyled">
           <li class="profile">
