@@ -20,7 +20,7 @@
         <div class="panel-heading clearfix">
           <strong>
             <span class="glyphicon glyphicon-th"></span>
-            <span>Ventas mensuales</span>
+            <span>Salidas mensuales</span>
           </strong>
         </div>
         <div class="panel-body">

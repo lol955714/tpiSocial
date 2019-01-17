@@ -61,7 +61,7 @@
         </div>
         <div class="panel-value pull-right">
           <h2 class="margin-top"> <?php  echo $c_sale['total']; ?></h2>
-          <p class="text-muted">Ventas</p>
+          <p class="text-muted">Salidas</p>
         </div>
        </div>
     </div>
@@ -73,7 +73,7 @@
        <div class="panel-heading">
          <strong>
            <span class="glyphicon glyphicon-th"></span>
-           <span>Productos más vendidos</span>
+           <span>PRODUCTOS CON MAYOR MOVIMIENTO</span>
          </strong>
        </div>
        <div class="panel-body">
@@ -81,7 +81,7 @@
           <thead>
            <tr>
              <th>Título</th>
-             <th>Total vendido</th>
+             <th>Total Salidas</th>
              <th>Cantidad total</th>
            <tr>
           </thead>
@@ -103,7 +103,7 @@
         <div class="panel-heading">
           <strong>
             <span class="glyphicon glyphicon-th"></span>
-            <span>ÚLTIMAS VENTAS</span>
+            <span>ÚLTIMAS SALIDAS</span>
           </strong>
         </div>
         <div class="panel-body">

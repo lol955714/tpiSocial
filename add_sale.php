@@ -61,7 +61,7 @@
       <div class="panel-heading clearfix">
         <strong>
           <span class="glyphicon glyphicon-th"></span>
-          <span>Editar venta</span>
+          <span>Editar salida</span>
        </strong>
       </div>
       <div class="panel-body">

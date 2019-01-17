@@ -27,8 +27,8 @@
       <span>Productos</span>
     </a>
     <ul class="nav submenu">
-       <li><a href="product.php">Administrar productos</a> </li>
-       <li><a href="add_product.php">Agregar productos</a> </li>
+       <li><a href="product.php">Administrar Productos</a> </li>
+       <li><a href="add_product.php">Agregar Productos</a> </li>
    </ul>
   </li>
   <li>
@@ -40,22 +40,22 @@
   <li>
     <a href="#" class="submenu-toggle">
       <i class="glyphicon glyphicon-th-list"></i>
-       <span>Ventas</span>
+       <span>Salidas</span>
       </a>
       <ul class="nav submenu">
-         <li><a href="sales.php">Administrar ventas</a> </li>
-         <li><a href="add_sale.php">Agregar venta</a> </li>
+         <li><a href="sales.php">Administrar Salidas</a> </li>
+         <li><a href="add_sale.php">Agregar Salidas</a> </li>
      </ul>
   </li>
   <li>
     <a href="#" class="submenu-toggle">
       <i class="glyphicon glyphicon-signal"></i>
-       <span>Reporte de ventas</span>
+       <span>Reporte de Salidas</span>
       </a>
       <ul class="nav submenu">
-        <li><a href="sales_report.php">Ventas por fecha </a></li>
-        <li><a href="monthly_sales.php">Ventas mensuales</a></li>
-        <li><a href="daily_sales.php">Ventas diarias</a> </li>
+        <li><a href="sales_report.php">Salidas por fecha </a></li>
+        <li><a href="monthly_sales.php">Salidas mensuales</a></li>
+        <li><a href="daily_sales.php">Salidas diarias</a> </li>
       </ul>
   </li>
 </ul>

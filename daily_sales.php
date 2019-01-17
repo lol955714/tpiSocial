@@ -22,7 +22,7 @@
         <div class="panel-heading clearfix">
           <strong>
             <span class="glyphicon glyphicon-th"></span>
-            <span>Venta diaria</span>
+            <span>Salidas diarias</span>
           </strong>
         </div>
         <div class="panel-body">
