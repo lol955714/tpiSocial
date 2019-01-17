@@ -4,7 +4,9 @@
   if($session->isUserLoggedIn(true)) { redirect('home.php', false);}
 ?>
 <?php include_once('layouts/header.php'); ?>
-<div class="login-page">
+<div id="contenedor">
+<div id=derecha>
+  <div class="login-page">
     <div class="text-center">
        <h1>Bienvenido</h1>
        <p>Iniciar sesión </p>
@@ -24,4 +26,11 @@
         </div>
     </form>
 </div>
+</div>  
+<div id=izquierda>
+  <?php include_once('layouts/menu.php'); ?>
+</div>
+</div>
+
+
 <?php include_once('layouts/footer.php'); ?>

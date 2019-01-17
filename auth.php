@@ -12,7 +12,11 @@ if(empty($errors)){
      $session->login($user_id);
     //Update Sign in time
      updateLastLogIn($user_id);
+<<<<<<< HEAD
      $session->msg("s", "Bienvenido/a a Inventario IZAD");
+=======
+     $session->msg("s", "Bienvenido al sistema de administración");
+>>>>>>> 26ad57dfbc72495c3339ee9bf6182da13a72b73c
      redirect('home.php',false);
 
   } else {

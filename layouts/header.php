@@ -7,22 +7,31 @@
            echo remove_junk($page_title);
             elseif(!empty($user))
            echo ucfirst($user['name']);
-            else echo "Sistema simple de inventario";?>
+            else echo "Sistema izad";?>
     </title>
 	
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css" />
     <link rel="stylesheet" href="libs/css/main.css" />
+    <meta name="keywords" content="izad, iglesia, zacamil, comedor, comida, menú, comunidad">
+    <meta name="description" content="Sitio dedicado a la administración de inventario y mostrar el menú del día">
+    <meta name="ROBOTS" content="ALL">
+    <link rel="shortcut icon" href="/libs/image/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/libs/image/favicon.ico" type="image/x-icon">
   </head>
   <body>
   <?php  if ($session->isUserLoggedIn(true)): ?>
     <header id="header">
+<<<<<<< HEAD
       <div class="logo pull-left"> 
         <img src="./uploads/users/logoinv.png"/>
       </div>
+=======
+      <div class="logo pull-left"> Inventario Izad</div>
+>>>>>>> 26ad57dfbc72495c3339ee9bf6182da13a72b73c
       <div class="header-content">
       <div class="header-date pull-left">
-        <strong><?php echo date("d/m/Y  g:i a");?></strong>
+        <strong><?php echo date("M/D/Y  G:i ");?></strong>
       </div>
       <div class="pull-right clearfix">
         <ul class="info-menu list-inline list-unstyled">
