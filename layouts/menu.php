@@ -4,9 +4,9 @@
   $products = join_product_table();
 ?>
 <div>
-<div>
    <h1><p>Menú del día</p></h1>
- <div class="panel-body">
+   </div>
+ <div>
           <table class="table table-bordered">
             <thead>
               <tr>
@@ -31,9 +31,7 @@
                 <td class="text-center"> <?php echo remove_junk($product['sale_price']); ?></td>
               </tr>
                 <?php endif; ?>
-                  
              <?php endforeach; ?>
             </tbody>
           </table>
         </div>
-</div>
