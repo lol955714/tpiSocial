@@ -7,7 +7,7 @@
            echo remove_junk($page_title);
             elseif(!empty($user))
            echo ucfirst($user['name']);
-            else echo "Sistema simple de inventario";?>
+            else echo "Sistema izad";?>
     </title>
 	
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
@@ -23,7 +23,7 @@
       <div class="logo pull-left"> Inventario Izad</div>
       <div class="header-content">
       <div class="header-date pull-left">
-        <strong><?php echo date("d/m/Y  g:i a");?></strong>
+        <strong><?php echo date("M/D/Y  G:i ");?></strong>
       </div>
       <div class="pull-right clearfix">
         <ul class="info-menu list-inline list-unstyled">
