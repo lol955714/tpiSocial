@@ -15,7 +15,7 @@
             <tbody>
               <?php foreach ($products as $product):?>
               
-                <?php if ($product['categorie']==='ejemplo'): ?>
+                <?php if ($product['categorie']==='platillo'): ?>
                 <tr>
                 <td id="columnasPrin">
                 <?php if($product['media_id'] === '0'): ?>
