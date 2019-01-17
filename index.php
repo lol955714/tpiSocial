@@ -28,7 +28,7 @@
 </div>
 </div>  
 <div id=izquierda>
-  <?php include_once('layouts/menu.php'); ?>
+  <div><?php include_once('layouts/menu.php'); ?></div>
 </div>
 </div>
 
