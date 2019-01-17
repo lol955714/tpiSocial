@@ -5,7 +5,7 @@
 ?>
 <?php include_once('layouts/header.php'); ?>
 <div id="contenedor">
-<div id=derecha>
+<div id="derecha">
   <div class="login-page">
     <div class="text-center">
        <h1>Bienvenido</h1>
@@ -26,9 +26,9 @@
         </div>
     </form>
 </div>
-</div>  
-<div id=izquierda>
-  <?php include_once('layouts/menu.php'); ?>
+</div> 
+<div id="izquierda">
+<?php include_once('layouts/menu.php'); ?>
 </div>
 </div>
 
