@@ -16,6 +16,8 @@
     <meta name="keywords" content="izad, iglesia, zacamil, comedor, comida, menú, comunidad">
     <meta name="description" content="Sitio dedicado a la administración de inventario y mostrar el menú del día">
     <meta name="ROBOTS" content="ALL">
+    <link rel="shortcut icon" href="/libs/image/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/libs/image/favicon.ico" type="image/x-icon">
   </head>
   <body>
   <?php  if ($session->isUserLoggedIn(true)): ?>
