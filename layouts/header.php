@@ -22,13 +22,9 @@
   <body>
   <?php  if ($session->isUserLoggedIn(true)): ?>
     <header id="header">
-<<<<<<< HEAD
       <div class="logo pull-left"> 
         <img src="./uploads/users/logoinv.png"/>
       </div>
-=======
-      <div class="logo pull-left"> Inventario Izad</div>
->>>>>>> 26ad57dfbc72495c3339ee9bf6182da13a72b73c
       <div class="header-content">
       <div class="header-date pull-left">
         <strong><?php echo date("M/D/Y  G:i ");?></strong>
